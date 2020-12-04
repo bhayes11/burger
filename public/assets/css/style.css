@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(240, 208, 104);
+}
+
 li {
   padding: 5px;
   margin: 5px;
