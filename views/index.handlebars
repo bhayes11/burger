@@ -21,11 +21,13 @@
 </ul>
 
 <h2>Add a Burger</h2>
-<form class="create-form">
+{{!- the action element connects this form to the post route --}}
+{{!-- the method allows for the POST capabilities --}}
+<form class="create-form" action="/api/burger" method="POST">
 
   <div class="form-group">
     <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+    <input type="text" id="ca" name="burger_name">
   </div>
   
   <button type="submit">Add Burger</button>
